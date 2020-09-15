@@ -1,0 +1,100 @@
+html{
+  height: 100vh;
+}
+body{
+  margin: 0px;
+  background-color: hsl(217, 28%, 15%) !important;  
+}
+
+.sudoku-logo{
+  height: 35px;
+  width: 35px;
+  color: white;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+.nav-logo {
+  color: white;
+  font-size: 40px;
+  padding: 3px!important;
+}
+.nav-logo:hover{
+  color: rgb(194, 192, 192);
+}
+
+.main-heading{
+  color: white;
+  padding: 0px;
+}
+ .sub-box{
+   background-color: #515070;
+   border:none;
+   border-collapse: collapse;
+ }
+.num-box{
+  width: 45px;
+  height: 45px;
+  border: none;
+ text-align: center;
+ font-size: 20px;
+ background-color: #d6e0f0;
+}
+
+.result{
+  font-weight: bold;
+  color:green;
+}
+.main-table{
+  background-color: #515070;
+  border-collapse: collapse;
+  border: 2px solid #515070;
+  margin-top: 40px;
+}
+.main-div{
+  text-align: -webkit-center;
+}
+.bg-image{
+  width: 100%;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  z-index: -1;
+}
+.sub-div{
+  margin: auto;
+}
+
+.footer-text{
+  color: #fff;
+  font-size: 13px;
+  text-align: center !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  margin-bottom: 0px !important;
+}
+.solve{
+  font-weight: bold!important;
+  margin: 25px auto;
+  width: 200px;
+  background-color:hsl(198, 60%, 50%)!important;
+}
+@media screen and (max-width:478px){
+  .main-heading{
+    font-size: 28px;
+  }
+  .nav-logo{
+    font-size: 35px;
+  }
+  .num-box{
+    width: 30px;
+    height: 30px;
+  }
+  .result{
+    font-size: 25px;
+  }
+  .solve{
+    width: 100px;
+    font-size: 15px!important;
+  }
+}
