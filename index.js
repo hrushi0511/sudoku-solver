@@ -23,7 +23,7 @@ document.addEventListener("keypress", function (event) {
     id_number = String(Number(id_number) + 1);
     document.querySelector("#_" + id_number).focus();
     }
-  } else if (input_value % 2 === 1 || input_value % 2 === 0) {
+  } else if (input_value % 2 === 1 || input_value % 2 === 0 && input_value!=="0") {
     if (input_id.length === 2) {
       id_number = input_id[1];
       z = Number(id_number);
