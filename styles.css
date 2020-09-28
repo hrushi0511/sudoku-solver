@@ -1,6 +1,6 @@
 body {
   margin: 0px;
-  background-color: hsl(217, 28%, 15%) !important;
+  background-color: #1c2431 !important;
 }
 
 .sudoku-logo {
@@ -114,8 +114,7 @@ body {
   background-image: linear-gradient(
     to right,
     #28df99 0%,
-    #6cc7f5 51%,
-    #28df99 100%
+    #6cc7f5 200%
   ) !important;
 }
 .clear {
