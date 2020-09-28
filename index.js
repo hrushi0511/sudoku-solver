@@ -46,7 +46,9 @@ document.addEventListener("keypress", function (event) {
     document.querySelector("#" + input_id).style.backgroundColor = "red";
     setTimeout(function () {
       document.querySelector("#" + input_id).style.backgroundColor = "";
+      document.querySelector("#" + input_id).focus();
     }, 100);
+  
   }
 });
 
@@ -137,8 +139,9 @@ function horizontal_validity(id, input) {
       document.querySelector("#" + id).style.backgroundColor = "red";
       setTimeout(function () {
         document.querySelector("#" + id).style.backgroundColor = "";
+        document.querySelector("#" + id).focus();
       }, 100);
-
+      
       // invalid
       // alerts
       // must be added
@@ -156,7 +159,9 @@ function horizontal_validity(id, input) {
       document.querySelector("#" + id).style.backgroundColor = "red";
       setTimeout(function () {
         document.querySelector("#" + id).style.backgroundColor = "";
+        document.querySelector("#" + id).focus();
       }, 100);
+      
       // invalid
       // alerts
       // must be added
@@ -183,7 +188,9 @@ function vertical_validity(id, input) {
       document.querySelector("#" + id).style.backgroundColor = "red";
       setTimeout(function () {
         document.querySelector("#" + id).style.backgroundColor = "";
+        document.querySelector("#" + id).focus();
       }, 100);
+      
       // invalid
       // alerts
       // must be added
@@ -201,7 +208,9 @@ function vertical_validity(id, input) {
       document.querySelector("#" + id).style.backgroundColor = "red";
       setTimeout(function () {
         document.querySelector("#" + id).style.backgroundColor = "";
+        document.querySelector("#" + id).focus();
       }, 100);
+      
       // invalid
       // alerts
       // must be added
@@ -290,7 +299,9 @@ function box_validity(id, input) {
         document.querySelector("#" + id).style.backgroundColor = "red";
         setTimeout(function () {
           document.querySelector("#" + id).style.backgroundColor = "";
+          document.querySelector("#" + id).focus();
         }, 100);
+        
         // invalid
         // alerts
         // must be added
